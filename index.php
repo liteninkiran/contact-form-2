@@ -57,6 +57,9 @@
 
 <?php
                 include('form-controls\client-admin\internal-coding\client-type.php');
+                include('form-controls\client-admin\internal-coding\client-reason.php');
+                include('form-controls\client-admin\internal-coding\client-source.php');
+                include('form-controls\client-admin\internal-coding\contact-frequency.php');
 ?>
 
             </div>

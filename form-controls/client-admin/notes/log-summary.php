@@ -1,5 +1,5 @@
 
                 <p>
                     <label for="log-summary">Log Summary</label>
-                    <textarea name="log-summary" placeholder="Type in log summary" oninput="this.className = ''"></textarea>
+                    <textarea name="log-summary" rows="11" placeholder="Type in log summary" required oninput="this.className = ''"></textarea>
                 </p>

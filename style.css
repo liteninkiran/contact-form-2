@@ -38,6 +38,12 @@
         background-color: #ffdddd;
     }
 
+    /* Mark drop-down menus that gets an error on validation: */
+    textarea.invalid
+    {
+        background-color: #ffdddd;
+    }
+
     /* Hide all steps by default: */
     .tab
     {
