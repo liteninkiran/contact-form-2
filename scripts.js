@@ -67,7 +67,7 @@
     {
         // This function deals with validation of the form fields
         var x, y, i, valid = true;
-/*
+
         x = document.getElementsByClassName("tab");
         y = document.querySelectorAll('input, select, textarea')
 
@@ -90,7 +90,7 @@
         {
             document.getElementsByClassName("step")[currentTab].className += " finish";
         }
-*/
+
         return valid;
     }
 
