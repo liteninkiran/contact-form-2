@@ -69,7 +69,7 @@
         var x, y, i, valid = true;
 
         x = document.getElementsByClassName("tab");
-        y = document.querySelectorAll('input, select, textarea')
+        y = x[currentTab].querySelectorAll('input, select, textarea')
 
         // A loop that checks every input field in the current tab:
         for (i = 0; i < y.length; i++)
@@ -79,6 +79,8 @@
             {
                 // add an "invalid" class to the field:
                 y[i].className += " invalid";
+
+                alert(y[i].name);
 
                 // and set the current valid status to false:
                 valid = false;
