@@ -107,3 +107,9 @@
         //... and adds the "active" class to the current step:
         x[n].className += " active";
     }
+
+    function enable(controlId, disabled = false)
+    {
+        document.getElementById(controlId).disabled = disabled;
+    }
+
