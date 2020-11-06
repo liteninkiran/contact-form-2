@@ -16,7 +16,9 @@
 
             <h1>Add New Client:</h1>
 
-            <div class="tab">Client Name
+            <div class="tab">
+
+                <h2>Client Name</h2>
 <?php
                 include('form-controls\client-admin\client-name\title.php');
                 include('form-controls\client-admin\client-name\client-name.php');
@@ -30,8 +32,9 @@
 ?>
             </div>
 
-            <div class="tab">Contact Info:
+            <div class="tab">
 
+                <h2>Contact Info</h2>
 <?php
                 include('form-controls\client-admin\contact-info\address-type.php');
                 include('form-controls\client-admin\contact-info\address.php');
@@ -43,8 +46,9 @@
 
             </div>
 
-            <div class="tab">Notes:
+            <div class="tab">
 
+                <h2>Notes</h2>
 <?php
                 include('form-controls\client-admin\notes\alert-notes.php');
                 include('form-controls\client-admin\notes\log-summary.php');
@@ -53,8 +57,9 @@
 
             </div>
 
-            <div class="tab">Internal Coding:
+            <div class="tab">
 
+                <h2>Internal Coding</h2>
 <?php
                 include('form-controls\client-admin\internal-coding\client-type.php');
                 include('form-controls\client-admin\internal-coding\client-reason.php');

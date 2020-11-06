@@ -1,12 +1,15 @@
 
-                <p>
-                    <label for="title">Title</label>
-                    <select name="title" id="title" required oninput="this.className = ''">
-                        <option value="" disabled selected>Choose title from drop down</option>
-                        <option value="Mr">Mr</option>
-                        <option value="Mrs">Mrs</option>
-                        <option value="Miss">Miss</option>
-                        <option value="Ms">Ms</option>
-                        <option value="Dr">Dr</option>
-                    </select>
-                </p>
+                <div class="tooltip">
+                    <p>
+                        <label for="title">Title</label>
+                        <select name="title" id="title" required oninput="this.className = ''">
+                            <option value="" disabled selected>Choose title from drop down</option>
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Miss">Miss</option>
+                            <option value="Ms">Ms</option>
+                            <option value="Dr">Dr</option>
+                        </select>
+                    </p>
+                    <span class="tooltiptext">Choose Ms if female and title not known</span>
+                </div>
