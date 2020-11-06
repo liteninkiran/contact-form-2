@@ -108,8 +108,7 @@
         x[n].className += " active";
     }
 
-    function enable(controlId, disabled = false)
+    function enable(controlId, disableControl = false)
     {
-        document.getElementById(controlId).disabled = disabled;
+        document.getElementById(controlId).disabled = disableControl;
     }
-
